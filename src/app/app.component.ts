@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'site-teste';
+
+  lat: number = -23.2345604;
+  lng: number = -51.1634645;
+  zoom: number = 15;
+
+ 
 }
