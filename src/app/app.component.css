@@ -7,11 +7,10 @@ body {
   }
 
 agm-map {    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+   
     height: 200px;
     width: auto;
+ 
 }
 .container {
     position: relative;
@@ -28,9 +27,23 @@ agm-map {
     width: 100%; /* Full width */
     padding: 20px; /* Some padding */
 }
+/* #contador{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto
+} */
+
+.countdown {    
+   
+  }
+
+h1 {
+    text-align: center;
+}
 
 #paragrafo{
-    color: aqua;
+    color: black;
 }
 
 #opacidade{
@@ -39,6 +52,30 @@ agm-map {
 
 #opacidadefull1 {
     opacity: 1!important;
+}
+
+#mapalocalrecepcao {    
+    text-align: center!important;
+}
+
+#imagemhavan {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#imagemcb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#textohavan {
+    text-align: center; 
+}
+
+#textocb {
+    text-align: center;
 }
 
 /* Countdown */ 

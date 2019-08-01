@@ -3,26 +3,35 @@
       </head>
         <body>
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top mb-5 shadow">
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg- static-top mb-5 shadow">
     <div class="container">
-      <a class="navbar-brand" href="#">Site Teste</a>
+      <a class="navbar-brand abs-center-x d-block text-center order-0 order-md-1 w-25" href="#">Site Teste</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Mapa</a>
-          </li>          
+        <ul class="navbar-nav ml-auto center">          
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
+
+  <nav class="navbar navbar-dark navbar-expand-md bg- justify-content-between shadow">
+    <div class="container-fluid">        
+        <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+            <ul class="navbar-nav">
+                
+            </ul>
+        </div>
+        <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25">Site teste</a>
+        <div class="navbar-collapse collapse dual-nav w-50 order-2">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
   <!-- <div class="container">
       <img src="https://picsum.photos/id/0/5616/3744" alt="Notebook" style="width:100%;">
@@ -31,29 +40,60 @@
         <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
       </div>
     </div> -->
-  
+
+   <!-- Countdown -->
+        
+   <h1>Contagem Regressiva</h1>
+
+   <div id="contador"
+  class="countdown"
+  simpleCountdown
+  [dateTo]="1581242400"
+  [language]="'en'"
+  [endMessage]="'custom end message'"
+  [reactive]="true"
+  [styles]="'
+  fonte-family: Arial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;      
+  display: 
+  '"
+></div>      
+
+      <!-- Countdown -->
+
   <!-- Page Content -->
   <div class="container">
     <div class="card border-0 shadow my-5"></div>
       <div class="card-body p-5"></div>
        <h1 class="font-weight-light">Fixed Full Page Background Image</h1>
-        <!-- Countdown -->
-        
+       
+       <a href="https://lista.havan.com.br/Convidado/ItensListaPresente/395748" target="_blank">
+        <img id="imagemhavan" src="https://image.winudf.com/v2/image/YnIuY29tLm5lb21vZGUuaGF2YW5faWNvbl8xNTM0NDMzODE4XzA3OA/icon.png?w=170&fakeurl=1" alt="Lista de presentes Havan" style="width:74px;height:74px;border:0;">
+      </a>
+        <p id="textohavan" class="lead"><a href="https://lista.havan.com.br/Convidado/ItensListaPresente/395748" target="_blank">Lista de presentes Havan</a></p>
 
-      <!-- Countdown -->
-        <p class="lead">In this snippet, the background image is fixed to the body element. Content on the page will scroll, but the image will remain in a fixed position!</p>
-        <p class="lead">Scroll down...</p>
-        <div style="height: 200px"></div>
+        <a href="https://casamento.casasbahia.com.br/#/lista-presentes/785738" target="_blank">
+          <img id="imagemcb" src="https://lh3.googleusercontent.com/4JpSjSv-tkzJra4YWRqfrBhjnSj4MSbhLVYGzagfFUKCxQvsK47z295mKmmJ9e1anF4=s180-rw" alt="Lista de presentes Casas Bahia" style="width:58px;height:58px;border:0;">
+        </a>
+        <p  id="textocb" class="lead"><a href="https://casamento.casasbahia.com.br/#/lista-presentes/785738" target="_blank">Lista de presentes Casas Bahia</a></p>
+        <div style="height: 80px"></div>
          <!-- Google Map -->
+         <p id="mapalocalrecepcao" class="lead mb-0">MapaLocalRecepcao</p>  
         <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
           <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+          <agm-info-window [disableAutoPan]="true">
+            Hi, this is the content of the <strong>info window</strong>
+          </agm-info-window>
         </agm-map>
+        
          <!-- Google Map -->
-        <p class="lead mb-0">You've reached the end!</p>    
+         
   </div>
   
     <!-- Rodape -->
-  
+    <google-map></google-map>
     <blockquote class="blockquote text-center">
       <p id="paragrafo" class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
       <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
