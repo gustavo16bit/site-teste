@@ -1,13 +1,17 @@
+html {
+    overflow: hidden;
+}
+
 body {
-    background: url('https://picsum.photos/id/100/2500/1656') no-repeat center center fixed;
+    background: url('../assets/Img/background.jpg') no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    
   }
 
-agm-map {    
-   
+agm-map {   
     height: 200px;
     width: auto;
  
@@ -27,16 +31,6 @@ agm-map {
     width: 100%; /* Full width */
     padding: 20px; /* Some padding */
 }
-/* #contador{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto
-} */
-
-.countdown {    
-   
-  }
 
 h1 {
     text-align: center;
@@ -59,15 +53,17 @@ h1 {
 }
 
 #imagemhavan {
-    display: block;
+    display: inline;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+       
 }
 
 #imagemcb {
-    display: block;
+    display: inline;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    
 }
 
 #textohavan {
@@ -78,5 +74,13 @@ h1 {
     text-align: center;
 }
 
-/* Countdown */ 
+.imagemlista{
+    text-align: center;
+}
 
+#contagem-regressiva{
+    height: 10vh;
+    width: 40vw;
+    margin: auto;
+    
+}
