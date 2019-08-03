@@ -7,15 +7,20 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
-    
+    -o-background-size: cover;    
   }
 
 agm-map {   
     height: 200px;
     width: auto;
- 
 }
+
+.countdown {
+    margin:0 1;
+}
+
+ 
+
 .container {
     position: relative;
     max-width: 800px; /* Maximum width */
@@ -36,11 +41,11 @@ h1 {
     text-align: center;
 }
 
-#paragrafo{
+#paragrafo {
     color: black;
 }
 
-#opacidade{
+#opacidade {
     opacity: 0.2;
 }
 
@@ -74,13 +79,22 @@ h1 {
     text-align: center;
 }
 
-.imagemlista{
+.imagemlista {
     text-align: center;
 }
 
-#contagem-regressiva{
+#contagem-regressiva {
     height: 10vh;
     width: 40vw;
     margin: auto;
     
+}
+
+#rodape {
+    border: 0px;
+
+}
+
+#containermaster {
+    border: 0px;
 }

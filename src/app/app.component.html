@@ -2,11 +2,11 @@
     <head>               
       </head>     
         <body>
- <div class="container-fluid">
+ <div id="containermaster" class="container-fluid">
 
  <!-- Navigation -->
 
-  <nav class="navbar navbar-dark navbar-expand-md bg-dark justify-content-between shadow">
+  <!-- <nav class="navbar navbar-dark navbar-expand-md bg-dark justify-content-between shadow">
     <div class="container-fluid">        
         <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
             <ul class="navbar-nav">
@@ -21,7 +21,8 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav> -->
+
 <!-- Countdown -->
         
   <h1>Contagem Regressiva</h1>
@@ -41,16 +42,15 @@
     <div id="contagem-regressiva">
         <div class="countdown" 
         simpleCountdown 
-        [dateTo]="1581242400" 
+        [dateTo]="1575145800" 
         [language]="'en'"
         [endMessage]="'custom end message'" 
         [reactive]="true" 
         [styles]="'  
         font-size: 40; 
         text-align: center;
-        color: black;
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
+        color: black;        
+        margin:0 1px;
         font-size: 60px;    
         width: 300px;
         padding: 100;
@@ -84,7 +84,7 @@
 </div> -->
 
   <!-- Page Content -->  
-  <div background="'../assets/Img/background1.jpg'" class="container">
+  <div class="container">
     <div class="card border-0 shadow my-5"></div>
       <div class="card-body p-15"></div>
        <h1 class="font-weight-light">Listas de presentes</h1>
@@ -112,7 +112,7 @@
   
     <!-- Rodape -->
     <google-map></google-map>
-    <blockquote class="blockquote text-center">
+    <blockquote id="rodape" class="blockquote text-center">
       <p id="paragrafo" class="mb-0">E todo mundo diz que ele completa ela e vice-versa, que nem feijão com arroz.</p>
       <footer class="blockquote-footer">Eduardo e Mônica <cite title="Source Title">Legião Urbana</cite></footer>
     </blockquote>

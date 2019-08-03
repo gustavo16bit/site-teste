@@ -33,7 +33,7 @@
     "ng6-countdown": "^1.0.2",
     "ngx-bootstrap": "^5.1.0",
     "ngx-countdown": "^3.2.0",
-    "ngx-simple-countdown": "^1.0.1",
+    "ngx-simple-countdown": "^1.0.2",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
